@@ -3,11 +3,23 @@
     width: 50px;
 }
 
-.display {
-    display: flex;
-    justify-content: end;
+#inputField {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: right;
 }
 
-.mainview {
-    width: fit-content;
+.calc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.theApp {
+    border: 2px solid black;
+    padding: 20px;
 }
