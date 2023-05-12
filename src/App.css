@@ -9,11 +9,15 @@
     text-align: right;
 }
 
+.header {
+    margin-top: 100px;
+}
+
 .calc {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
